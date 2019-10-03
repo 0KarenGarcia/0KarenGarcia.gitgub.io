@@ -1,0 +1,16 @@
+body{
+    background-color: #e5eff1;
+  }
+  .App {
+    
+    text-align: right;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #e5eff1;
+    font-size: x-large;
+  }
+  
+  .loading {
+    background-image: url( "https://acegif.com/wp-content/uploads/loading-43.gif");
+    padding: 300px;
+    background-repeat: no-repeat;
+  }
