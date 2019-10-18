@@ -10,7 +10,7 @@ body{
   }
   
   .loading {
-    background-image: url( "https://acegif.com/wp-content/uploads/loading-43.gif");
+    background-image: url("/multimedia/logo\ karen.png") ;
     padding: 300px;
     background-repeat: no-repeat;
   }
