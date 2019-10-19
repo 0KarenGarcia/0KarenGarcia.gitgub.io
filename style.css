@@ -1,16 +1,10 @@
 body{
-    background-color: #e5eff1;
-  }
-  .App {
-    
-    text-align: right;
-    font-family: 'Fredericka the Great', cursive;
-    background-color: #e5eff1;
-    font-size: x-large;
-  }
+background-color: black;
+}
+.logo{
+  background-image: url("/https://ibb.co/LSb9s0G") ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
   
-  .loading {
-    background-image: url("/multimedia/logo\ karen.png") ;
-    padding: 300px;
-    background-repeat: no-repeat;
-  }
+}
