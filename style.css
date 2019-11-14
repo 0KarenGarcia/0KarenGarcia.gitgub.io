@@ -15,7 +15,7 @@ p{
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
 
 .conteiner-all{
   width: 210px;
@@ -91,5 +91,32 @@ p{
     transform: rotateY(0deg);
   }to{
     transform: rotateY(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 1000px ) {
+  #main {
+    margin-left: 0px ;
+    margin-right: 0px;
+  }
+  header{
+    padding: 100%;
+  }
+
+  .conteiner-small figure:nth-child(1){
+    color:#F7DF1E;
+  }
+  .conteiner-small figure:nth-child(3){
+    color: #62DAFC;
+  }
+  .conteiner-small figure:nth-child(4){
+    color: #8CC84B;
+  }
+  .conteiner-small figure:nth-child(5){
+    color: #16A1DC;
+  }
+  .conteiner-small figure:nth-child(6){
+    color: red;
   }
 }
