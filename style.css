@@ -1,4 +1,14 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+body {font-family: "Montserrat", sans-serif}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+}
+
+p{
+  font-family: 'Gabriela', serif;
+}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
@@ -33,6 +43,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 .conteiner-carrusel figure:nth-child(1){
+  color:#F7DF1E;
   transform: rotateY(0deg)
              translateZ(300px);
 }
@@ -41,18 +52,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
              translateZ(300px);
 }
 .conteiner-carrusel figure:nth-child(3){
+  color: #62DAFC;
   transform: rotateY(121deg)
              translateZ(300px);
 }
 .conteiner-carrusel figure:nth-child(4){
+  color: #8CC84B;
   transform: rotateY(182deg)
              translateZ(300px);
 }
 .conteiner-carrusel figure:nth-child(5){
+  color: #16A1DC;
   transform: rotateY(243deg)
              translateZ(300px);
 }
 .conteiner-carrusel figure:nth-child(6){
+  color: red;
   transform: rotateY(300deg)
              translateZ(300px);
 }
